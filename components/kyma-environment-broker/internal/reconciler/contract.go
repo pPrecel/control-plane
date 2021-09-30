@@ -2,10 +2,12 @@ package reconciler
 
 // COPIED FROM RECONCILER keb/client.go - may be imported in the future
 const (
-	ClusterStatusPending     string = "reconcile_pending"
-	ClusterStatusReady       string = "ready"
-	ClusterStatusError       string = "error"
-	ClusterStatusReconciling string = "reconciling"
+	ClusterStatusPending           string = "reconcile_pending"
+	ClusterStatusReconcileFailed   string = "reconcile_failed"
+	ClusterStatusReconcileDisabled string = "reconcile_disabled"
+	ClusterStatusReady             string = "ready"
+	ClusterStatusError             string = "error"
+	ClusterStatusReconciling       string = "reconciling"
 )
 
 type Cluster struct {

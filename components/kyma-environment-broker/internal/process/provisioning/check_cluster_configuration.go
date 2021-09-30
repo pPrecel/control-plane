@@ -57,9 +57,9 @@ func (s *CheckClusterConfigurationStep) Run(operation internal.ProvisioningOpera
 	switch state.Status {
 	case reconciler.ClusterStatusReconciling, reconciler.ClusterStatusPending:
 		return operation, 30 * time.Second, nil
-	case reconciler.ClusterStatusReady:
+	case reconciler.ClusterStatusReady, reconciler.ClusterStatusReconcileDisabled:
 		return operation, 0, nil
-	case reconciler.ClusterStatusError:
+	case reconciler.ClusterStatusError, reconciler.ClusterStatusReconcileFailed:
 		log.Warnf("Reconciler failed")
 		return s.operationManager.OperationFailed(operation, fmt.Sprintf("Reconciler failed"), log)
 	default:
