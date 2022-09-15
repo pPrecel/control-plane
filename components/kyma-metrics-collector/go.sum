@@ -731,13 +731,14 @@ github.com/gardener/gardener v1.26.0/go.mod h1:BrVJl0J2c9a1KpUm9E1COMolNKFY5cp3G
 github.com/gardener/gardener v1.36.0/go.mod h1:aVEbZy2WybsuwfXfUFNfOYz1JOmMjEOeYbv+sN9PzE0=
 github.com/gardener/gardener v1.44.4/go.mod h1:y8f1w9u44YuDAowo3PWmR79LhUv4TeTTb/1dhAFbKzc=
 github.com/gardener/gardener v1.50.1/go.mod h1:Rc2JNnGPMEH+0Wm04EOVLmu9VonyU4JCk1VjOjHUGx8=
+github.com/gardener/gardener v1.53.0/go.mod h1:O+59kTQavqxX5nr5jyHqD6o4JxIukHMaW2t5BLiXqmc=
 github.com/gardener/gardener v1.53.2 h1:X7NuzKuTRiyrc4YHFuXN6QBAOnXEOSxUSDHi4Qcr8zg=
 github.com/gardener/gardener v1.53.2/go.mod h1:O+59kTQavqxX5nr5jyHqD6o4JxIukHMaW2t5BLiXqmc=
 github.com/gardener/gardener-extension-networking-calico v1.19.4/go.mod h1:i62aQOUURkhQrap9cNK1jNkZoxCb2o6iDeUYaoSt25g=
 github.com/gardener/gardener-extension-provider-aws v1.37.0 h1:/YZ/Yg4Ph5rt4e682EqKfVNsVuupnmTc8+0u9feNJYM=
 github.com/gardener/gardener-extension-provider-aws v1.37.0/go.mod h1:ovYrREFCXwKbDIa96JSbTqe4bBmawenqYmJZgr9xWQE=
-github.com/gardener/gardener-extension-provider-azure v1.29.0 h1:xNf3Mks1wBwOlBRqdwZI/hUHEHRaRiHP5ozm2/Chqio=
-github.com/gardener/gardener-extension-provider-azure v1.29.0/go.mod h1:6L53A0+KlMpKMHKajG6k24lIHmPTybx1MeqJSbPQIr8=
+github.com/gardener/gardener-extension-provider-azure v1.30.0 h1:QQ8fd8BJ0tOHdLC/2BZ8UgqqZ9+E8qembUypTpO8X3Y=
+github.com/gardener/gardener-extension-provider-azure v1.30.0/go.mod h1:emhSOZ6TJdchDO2ZtZTYcBZI52SvqreSXLA+OJaoTW4=
 github.com/gardener/gardener-extension-provider-gcp v1.24.0 h1:EtSNraNVXT+oCL8KQB/pbK1b3DoSwdEHnxyr6/AxQKY=
 github.com/gardener/gardener-extension-provider-gcp v1.24.0/go.mod h1:J/kGzqMjHS1et6ejscnz8v8QpsBR+5axHXdH+Menn7A=
 github.com/gardener/gardener-resource-manager v0.10.0/go.mod h1:0pKTHOhvU91eQB0EYr/6Ymd7lXc/5Hi8P8tF/gpV0VQ=
@@ -1765,6 +1766,7 @@ github.com/onsi/ginkgo v1.14.1/go.mod h1:iSB4RoI2tjJc9BBv4NKIKWKya62Rps+oPG/Lv9k
 github.com/onsi/ginkgo v1.14.2/go.mod h1:iSB4RoI2tjJc9BBv4NKIKWKya62Rps+oPG/Lv9klQyY=
 github.com/onsi/ginkgo v1.16.1/go.mod h1:CObGmKUOKaSC0RjmoAK7tKyn4Azo5P2IWuoMnvwxz1E=
 github.com/onsi/ginkgo v1.16.2/go.mod h1:CObGmKUOKaSC0RjmoAK7tKyn4Azo5P2IWuoMnvwxz1E=
+github.com/onsi/ginkgo v1.16.4 h1:29JGrr5oVBm5ulCWet69zQkzWipVXIol6ygQUe/EzNc=
 github.com/onsi/ginkgo v1.16.4/go.mod h1:dX+/inL/fNMqNlz0e9LfyB9TswhZpCVdJM/Z6Vvnwo0=
 github.com/onsi/ginkgo v1.16.5 h1:8xi0RTUf59SOSfEtZMvwTvXYMzG4gV23XVHOZiXNtnE=
 github.com/onsi/ginkgo v1.16.5/go.mod h1:+E8gABHa3K6zRBolWtd+ROzc/U5bkGt0FwiG042wbpU=
